@@ -19,6 +19,9 @@ console.log('### Challenge #1');
 // For the string `Hello, there.`, console out the same string but with the
 // first `e` replaced with an `o`.
 
+const str = `Hello, there.`;
+console.log(str.replace('e', 'o'));
+
 
 
 console.log('### Challenge #2');
