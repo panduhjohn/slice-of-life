@@ -40,6 +40,10 @@ console.log(`### Challenge #3`);
 // to do this involves repeating the same operation twice, though with
 // different arguments.
 
+const str = `Hello, there.`
+console.log(str.replace('e', 'i'))
+console.log(str.replace('o', 'y'))
+
 
 console.log(`### Challenge #4`);
 
@@ -54,12 +58,16 @@ console.log(`### Challenge #5`);
 
 // For the string `Watch that speedbump!`, console out the first 5 characters.
 
+str = `Watch that speedbump!`;
+console.log(str.slice(0 , 5));
 
 
 console.log(`### Challenge #6`);
 
 // For the string `Watch that speedbump!`, console out the first 6 characters.
 
+str = `Watch that speedbump!`;
+console.log(str.slice(0, 6));
 
 
 console.log(`### Challenge #7`);
@@ -67,6 +75,8 @@ console.log(`### Challenge #7`);
 // For the string `Watch that speedbump!`, console out everything _except for_ the last 4
 // characters.
 
+str = `Watch that speedbump!`;
+console.log(str.slice(0, -4));
 
 
 console.log(`### Challenge #8`);
@@ -76,3 +86,8 @@ console.log(`### Challenge #8`);
 // but they should both be created using `slice` with the _exact_ same
 // argument(s).
 
+strBump = `Watch that speedbump!`;
+strHello = `Hello, there.`;
+
+console.log(strBump.slice(-4));
+console.log(strHello.slice(-4));
