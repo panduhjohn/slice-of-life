@@ -50,7 +50,10 @@ console.log(`### Challenge #4`);
 // For the string `Hello, there.`, console out the same string but with _every_
 // `e` replaced by an `o`. If you got this far, you are thoro af.
 
-
+const str = `Hello, there.`
+console.log(str.replace('e', 'o')
+    .replace('e', 'o')
+    .replace('e', 'o'));
 
 console.log(`# Slice Challenges`);
 
