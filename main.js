@@ -41,8 +41,8 @@ console.log(`### Challenge #3`);
 // different arguments.
 
 const str = `Hello, there.`
-console.log(str.replace('e', 'i'))
-console.log(str.replace('o', 'y'))
+console.log(str.replace('e', 'i')
+                .replace('o', 'y'));
 
 
 console.log(`### Challenge #4`);
