@@ -11,15 +11,13 @@
 // 2. Use `const` for all variables.
 
 
+
 console.log('# Replacement Challenges');
 
 console.log('### Challenge #1');
 
 // For the string `Hello, there.`, console out the same string but with the
 // first `e` replaced with an `o`.
-
-const str = `Hello, there.`;
-console.log(str.replace('e', 'o'));
 
 
 
@@ -28,8 +26,6 @@ console.log('### Challenge #2');
 // For the string `Hello, there.`, console out the same string but with the
 // `there` replaced with `you`.
 
-
-console.log(str.replace('there', 'you'))
 
 
 console.log(`### Challenge #3`);
@@ -40,19 +36,12 @@ console.log(`### Challenge #3`);
 // different arguments.
 
 
-console.log(str.replace('e', 'i')
-                .replace('o', 'y'));
-
-
 console.log(`### Challenge #4`);
 
 // For the string `Hello, there.`, console out the same string but with _every_
 // `e` replaced by an `o`. If you got this far, you are thoro af.
 
 
-console.log(str.replace('e', 'o')
-    .replace('e', 'o')
-    .replace('e', 'o'));
 
 console.log(`# Slice Challenges`);
 
@@ -60,16 +49,12 @@ console.log(`### Challenge #5`);
 
 // For the string `Watch that speedbump!`, console out the first 5 characters.
 
-strBump = `Watch that speedbump!`;
-console.log(strBump.slice(0 , 5));
 
 
 console.log(`### Challenge #6`);
 
 // For the string `Watch that speedbump!`, console out the first 6 characters.
 
-
-console.log(strBump.slice(0, 6));
 
 
 console.log(`### Challenge #7`);
@@ -78,8 +63,6 @@ console.log(`### Challenge #7`);
 // characters.
 
 
-console.log(strBump.slice(0, -4));
-
 
 console.log(`### Challenge #8`);
 
@@ -87,8 +70,3 @@ console.log(`### Challenge #8`);
 // last four characters of each one. There should be _two_ strings consoled for this one,
 // but they should both be created using `slice` with the _exact_ same
 // argument(s).
-
-strHello = `Hello, there.`;
-
-console.log(strBump.slice(-4));
-console.log(strHello.slice(-4));
